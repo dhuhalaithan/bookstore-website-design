@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Purchase Successful</title>
+  <style>
+    body {
+      background-color: #fff0f5;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 0;
+    }
+
+    .header {
+      background-color: pink;
+      padding: 15px;
+      color: white;
+      font-weight: bold;
+    }
+
+    .message {
+      margin-top: 100px;
+    }
+
+    .message h2 {
+      color: #d6336c;
+      font-size: 24px;
+    }
+
+    .note {
+      font-size: 16px;
+      color: #444;
+      margin-top: 15px;
+    }
+
+    .btn {
+      display: inline-block;
+      background-color: white;
+      color: deeppink;
+      border: 2px solid deeppink;
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+      margin-top: 20px;
+    }
+
+    .btn:hover {
+      background-color: #ffe6ef;
+    }
+
+    .footer {
+      margin-top: 60px;
+      padding: 15px;
+      background-color: #f8f9fa;
+      color: #777;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">Thank you for your purchase!</div>
+
+  <div class="message">
+    <h2>Your order has been placed successfully 🎉</h2>
+    <p>We hope you enjoy your reading time 📖</p>
+    <p class="note">💡 Note: Payment will be made upon delivery.</p>
+    <a href="index.php" class="btn">Back to Home</a>
+  </div>
+
+  
+<?php include("Footer.php");?>
+</body>
+</html>
